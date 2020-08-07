@@ -36,7 +36,7 @@ while True:
         temp =random.randint(30,80)
         data = { 'Temperature' : temp, 'Moisture': moist }
         if moist<=50:
-                r=requests.get('https://www.fast2sms.com/dev/bulk?authorization=PGmSojzFqKwhN45ti0D1dpBUuAnr3xRMb7CQagce6f2XYJsZWVXU1SZuCABYlaoNE7x46sczHPgpGb0O&sender_id=FSTSMS&message=MOTOT%20ON&language=english&route=p&numbers=9789744893')
+                r=requests.get('https://www.fast2sms.com/dev/bulk?authorization=PGmSojzFqKwhN45ti0D1dpBUuAnr3xRMb7CQagce6f2XYJsZWVXU1SZuCABYlaoNE7x46sczHPgpGb0O&sender_id=FSTSMS&message=LOW%20MOISTURE&language=english&route=p&numbers=97********')
                 print(r.status_code)
         
   
